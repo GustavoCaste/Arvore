@@ -10,11 +10,18 @@ public class Main {
 		boolean inseriu = arvore.inserir(info[i]);
 		System.out.println("inseriu " + info[i] + " : " + inseriu);
 		}
-		System.out.println("In-Ordem: ");
-		arvore.emOrdem(arvore.raiz);
-		System.out.println("\n\nPos-Ordem");
-		arvore.posOrdem(arvore.raiz);
-		System.out.println("\n\nPre-Ordem");
-		arvore.preOrdem(arvore.raiz);
+//		System.out.println("In-Ordem: ");
+//		arvore.emOrdem(arvore.raiz);
+//		System.out.println("\n\nPos-Ordem");
+//		arvore.posOrdem(arvore.raiz);
+//		System.out.println("\n\nPre-Ordem");
+//		arvore.preOrdem(arvore.raiz);
+//		arvore.inserirEsquerda(10);
+//		arvore.emOrdem(arvore.raiz);
+//		arvore.retirarEsquerda();
+//		arvore.emOrdem(arvore.raiz);
+		arvore.imprimirEsquerda(arvore.raiz);
+		arvore.imprimirTamanho(arvore);
+		arvore.verificarFolha(0);
 		}
 		}
